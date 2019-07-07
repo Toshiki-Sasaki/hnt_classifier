@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+torch = "*"
+torchvision = "*"
+beautifulsoup4 = "*"
+requests = "*"
+requests-html = "*"
+urllib = "*"
+
+[requires]
+python_version = "3.7"
