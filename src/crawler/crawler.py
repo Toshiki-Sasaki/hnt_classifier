@@ -12,7 +12,7 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-q', '--query', default='青椒肉絲', type=str, help='検索クエリ', required=True)
     parser.add_argument('-n', '--num', default=10, type=int, help='獲得してくる画像の枚数', required=True)
-    parser.add_argument('-o', '--out_dir', type=str, help='出力ディレクトリ', required=True)
+    parser.add_argument('-o', '--out_dir', type=str, default='data/tmp', help='出力ディレクトリ', required=True)
     args = parser.parse_args()
     return args
 
